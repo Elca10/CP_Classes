@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "BasicTests",
+      "setup": "sudo -H pip3 install numpy",
+      "run": "python3 -m unittest basic-tests.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
